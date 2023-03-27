@@ -17,7 +17,7 @@ const storeSchema = z.object({
     custom_link: z.string().optional(),
     updatedDate: z.coerce.date(),
     pricing: z.string().optional(),
-    oldPricing:  z.string().optional(),
+    oldPricing: z.string().optional(),
     badge: z.string().optional(),
     checkoutUrl: z.string().optional(),
     heroImage: z.string().optional(),
@@ -27,9 +27,11 @@ export type BlogSchema = z.infer<typeof blogSchema>;
 export type StoreSchema = z.infer<typeof storeSchema>;
 
 const blogCollection = defineCollection({ schema: blogSchema });
+const projectCollection = defineCollection({ schema: blogSchema });
 const storeCollection = defineCollection({ schema: storeSchema });
 
 export const collections = {
     'blog': blogCollection,
-    'store': storeCollection
+    'store': storeCollection,
+    'projects': projectCollection
 }

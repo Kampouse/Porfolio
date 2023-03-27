@@ -2,7 +2,7 @@
 
 ![Astro Modern Personal Website](public/1.png)
 
-my personal website built with [Astro](https://astro.build) and [tailwindcss](https://tailwindcss.com/)and [DaisyUI](https://daisyui.com/)
+my personal website built with [Astro](https://astro.build) and [tailwindcss](https://tailwindcss.com/) and [DaisyUI](https://daisyui.com/)
 
 ## Features
 
