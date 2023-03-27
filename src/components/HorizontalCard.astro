@@ -1,5 +1,5 @@
 ---
-const { title, img, desc, url, badge, tags, target = '_blank' } = Astro.props;
+const { title, img, desc, url, badge, tags, target = '_blank',showcase } = Astro.props;
 ---
 
 <div class="rounded-lg bg-base-100 hover:shadow-xl transition ease-in-out hover:scale-[102%]">
@@ -15,6 +15,7 @@ const { title, img, desc, url, badge, tags, target = '_blank' } = Astro.props;
         <div class="card-actions justify-end">
           {tags && tags.map((tag) => <div class="badge badge-outline">{tag}</div>)}
         </div>
+         {showcase && <a class = "btn btn-outline btn-primary btn-sm" href ={showcase} target = "_blank" rel = "noopener noreferrer" >Show case</a> }
       </div>
     </div>
   </a>
