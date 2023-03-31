@@ -1,7 +1,6 @@
 ---
 const { title, img, desc, url, badge, tags, target = '_blank',showcase,repo } = Astro.props;
 ---
-
 <div class="rounded-lg bg-base-100 hover:shadow-xl">
   <a href={url} target={target}>
     <div class="hero-content flex-col md:flex-row">
@@ -15,7 +14,7 @@ const { title, img, desc, url, badge, tags, target = '_blank',showcase,repo } = 
         <div class="card-actions justify-end">
           {tags && tags.map((tag) => <div class="badge badge-outline">{tag}</div>)}
         </div>
-         {showcase && <a class = "btn btn-outline btn-primary btn-sm" href ={showcase} target = "_blank" rel = "noopener noreferrer" >Show case</a> }
+         {showcase && <a class = "btn btn-outline btn-primary btn-sm mx-2 " href ={showcase} target = "_blank" rel = "noopener noreferrer" >Show case</a> }
          {repo && <a class = "btn btn-outline  btn-sm bg-info" href ={repo} target = "_blank" rel = "noopener noreferrer" >Repository</a> }
       </div>
     </div>

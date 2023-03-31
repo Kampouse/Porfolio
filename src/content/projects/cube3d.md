@@ -1,6 +1,6 @@
 ---
-title: "where are we in 2023"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+title: "Cube3d"
+description: "have you ever heard of can it run doom? but can you write a doom ?"
 pubDate: "Sep 10 2022"
 heroImage: "/favicon2.svg"
 ---

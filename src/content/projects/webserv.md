@@ -1,6 +1,6 @@
 ---
-title: "Demo Post 3"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+title: "WebServer"
+description: "ever wonder how a webserver works? well This project add as a goal to do this and more!"
 pubDate: "Sep 12 2022"
 heroImage: "/post_img.webp"
 badge: "Demo badge"

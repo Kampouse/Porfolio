@@ -1,6 +1,6 @@
 ---
-title: "Demo Post 2"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+title: "transcendence"
+description: "getting started into the world of web development with a simple web app with most commun web technologies"
 pubDate: "Sep 11 2022"
 heroImage: "/post_img.webp"
 ---
