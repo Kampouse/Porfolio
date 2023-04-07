@@ -3,18 +3,20 @@ import { changeLanguage } from "i18next";
 import { CollectionEntry, getCollection } from "astro:content";
 import { BlogSchema } from "../../../content/config";
 import PostLayout from "../../../layouts/PostLayout.astro";
+import i18Next, { changeLanguage } from "i18next";
 
 changeLanguage("fr");
 
 export async function getStaticPaths() {
-    const postEntries = await getCollection("projects");
+    const lang = "projects-" + i18Next.language;
+    const postEntries = await getCollection(lang as "projects-en" | "projects-fr");
     return postEntries.map(entry => ({
         params: { slug: entry.slug },
         props: { entry },
     }));
 }
 interface Props {
-    entry: CollectionEntry<"projects">;
+    entry: CollectionEntry<"projects-en" | "projects-fr">;
 }
 const { entry } = Astro.props;
 const post: BlogSchema = entry.data;

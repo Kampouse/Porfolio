@@ -34,5 +34,9 @@
 
 
 
-  }
+  },
+   "projects": {
+    "title": "Projects details  least techincal possible",
+    "subtitle": "Here is a list of my projects"
+   }
 }

@@ -31,6 +31,12 @@
             "desc": "Cube3d est un projet qui consiste a faire un moteur de rendu 2d en projection 3d, il s'agit d'un jeu de type wolfenstein 3d. il utilise la librairie minilibx et le langage C.",
             "link": "https://tranjs.com"
         }
-    }
-  }
+      }
+    
+  }, 
+   "projects": {
+    "title": "Projects decris de façon moins  technique",
+    "subtitle": "Here is a list of my projects"
+   }
+
 }
