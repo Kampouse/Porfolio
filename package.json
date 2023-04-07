@@ -5,7 +5,7 @@
   "version": "2.2.0",
   "private": true,
   "scripts": {
-    "dev": "astro dev",
+    "dev": "astro dev --port 5454",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
@@ -17,10 +17,11 @@
     "@astrojs/sitemap": "^1.0.0",
     "@astrojs/tailwind": "^3.0.0",
     "astro": "^2.0.0",
+    "astro-i18next": "1.0.0-beta.21",
     "daisyui": "^2.27.0",
     "dayjs": "^1.11.7"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.7"
+    "@tailwindcss/typography": "^0.5.9"
   }
 }

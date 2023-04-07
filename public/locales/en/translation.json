@@ -1,0 +1,38 @@
+{
+  "site": {
+    "title": "jean-philippe is awesome",
+    "description": "Here is the description of my awesome website!",
+    "button-show-case": "showcase",
+    "button-repo": "repository"
+  },
+  "home": {
+    "title": "Welcome to my awesome website!",
+    "subtitle": "This is a <0>more complex</0> string to translate, mixed with <1>html elements</1>, such as a <2>a cool link</2>!",
+    "hi-there": "Hey there 👋",
+    "i-am":  "I'm Jean-Philippe Martel",
+    "i-do": " I'm a software developper  from Quebec city, Canada. I'm passionate about building great software and helping others do the same. I'm currently working on a few projects, I'm  big fan of new technologies and I'm always looking for new  improvements to make my life easier.",
+    "latest-project": "Latest project",
+    "my-title": "Software developer",
+    "connect": "Let's connect",
+    "projects": {
+       "trans" : {
+        "title": "Transcendence",
+        "desc": " Final project for the 42 school; full stack web application that lets you play with other people  in real time to pong Made with React, Node.js, Express, Socket.io, and PostgreSQL. and of course of Typescript.",
+        "link": "https://tranjs.com"
+      },
+       "webserv" : {
+        "title": "Webserv",
+        "desc": "webserv is a web server written in C++ that supports HTTP/1.1 and CGI. It is able to handle multiple simultaneous connections and is able to serve static files and dynamic content. It is also able to handle multiple hosts and multiple locations per host.",
+        "link": "https://tranjs.com"
+      },
+       "Cube3d" : {
+        "title": "Cube3D",
+        "desc": "Cube3D is 2d raycasting game engine written in C. It is able to render walls, floors and ceilings, and is able to handle multiple sprites. It is also able to handle multiple maps and multiple textures. ",
+        "link": "https://tranjs.com"
+      }
+    }
+
+
+
+  }
+}
