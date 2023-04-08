@@ -31,12 +31,47 @@
         "link": "https://tranjs.com"
       }
     }
-
-
-
-  },
+    },
    "projects": {
     "title": "Projects details  least techincal possible",
     "subtitle": "Here is a list of my projects"
+  },
+   "resume" : {
+    "intro" :  "I'm a software developer from Quebec city, Canada. I'm passionate about building great software and helping others do the same. I'm currently working on a few projects, I'm  big fan of new technologies and I'm always looking for new  improvements to make my life easier.",
+    "educ": "Education",
+    "timeline" : {
+     "highschool" : {
+       "title" : " High school",
+        "subtitle" : "High school diploma"
+    },
+      "professional" : {
+          "title" : " High school",
+          "subtitle" : "High school diploma"
+    },
+      "covid" : {
+          "title" : " High school",
+          "subtitle" : "High school diploma"
+    },
+      "school42" : {
+          "title" : " High school",
+          "subtitle" : "High school diploma"
+     
+      }, 
+       "zelexio" : {
+          "title" : " High school",
+          "subtitle" : "High school diploma"
+
+
+
+    
+     }
+    
+  
+  
+    
+    
+    
+     
    }
+  
 }

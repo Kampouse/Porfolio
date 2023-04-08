@@ -1,29 +1,30 @@
 ---
-import { changeLanguage } from "i18next";
+import { t, changeLanguage } from "i18next";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import TimeLineElement from "../../components/cv/TimeLine.astro";
+import { translation_key as tr } from "../../translation";
 
 changeLanguage("fr");
 ---
 
 <BaseLayout title = "Resume">
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Profile</div>
-  </div>
 
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold"> </div>
+  </div>
   <div class="mb-10 text-justify">
-    young and hardwork self-taught developer with a passion for learning new technologies and solving problems. I have a strong background in software development and design. I have worked on a variety of projects, from small to  medium size nothing too big yet :( , and I am always looking for new technial challenges. I am a fast learner and I am always looking for new opportunities to improve my skills.
-  </div>
-
+{ t(tr.resume.intro)} </div>
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Education</div>
+    <div class="text-3xl w-full font-bold">{t(tr.resume.educ )}</div>
   </div>
 
   <div class="time-line-container grid gap-4 mb-10">
     <TimeLineElement
-      title="high-school" subtitle="" />
+      title={t(tr.resume.time_line.high_school.title)}  subtitle= {t( tr.resume.time_line.high_school.title)} />
     <TimeLineElement
-      title="forestery operator" subtitle="2019-2020 Learned to operate heavy equipment" />
+      title= {t(tr.resume.time_line.professional.title)}
+       subtitle= {t(tr.resume.time_line.professional.subtitle)}
+      />
     <TimeLineElement
       title="on my own [self-taught]" subtitle="during the covid-19 pandemicm 2020 to 2021 at home" />
 
@@ -91,7 +92,7 @@ changeLanguage("fr");
      <i class="text-sm">my 'Current techinal preference' in the 'current web' </i>
   </div>
   <div class="mb-10 text-justify"> 
-  <div >
+  <div>
     <div class="flex flex-row">
       <div class="flex flex-col">
         <li>Typescript</li>
@@ -101,4 +102,5 @@ changeLanguage("fr");
       </div>
   </div>
   <div class="mb-10 text-justify"> 
+  </div>
 </BaseLayout>
