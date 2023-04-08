@@ -1,6 +1,6 @@
 ---
 title: "Cube3d"
-description: "have you ever heard of can it run doom? but can you write a doom ?"
+description: "replique partiel de wolfenstein 3d"
 pubDate: "Sep 10 2022"
 heroImage: "/favicon2.svg"
 ---

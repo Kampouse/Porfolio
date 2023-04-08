@@ -1,6 +1,6 @@
 ---
 title: "WebServer"
-description: "ever wonder how a webserver works? well This project add as a goal to do this and more!"
+description: "savez vous comment fonctionne un serveur web ? dans ce projet on implemente un serveur web en CPP sans utiliser de librairie externe"
 pubDate: "Sep 12 2022"
 heroImage: "/post_img.webp"
 badge: "Demo badge"
