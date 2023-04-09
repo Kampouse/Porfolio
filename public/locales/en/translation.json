@@ -57,7 +57,8 @@
           "subtitle" : "High school diploma"
     },
       "work" : {
-
+        "skill" : "Skills",
+      "experience" : "Experience",
      "zelexio" : {
           "title" : " High school",
           "subtitle" : "High school diploma",
@@ -65,7 +66,7 @@
     }
   }
    },
-  "hobbies ": {
+  "hobbies": {
     "hobbie" : "Hobbies",
      "climbing" : {
        "title" : " High school",

@@ -42,6 +42,8 @@ export const translation_key = {
                 subtitle: "resume.timeline.school42.subtitle",
             },
             work: {
+                experience: "resume.timeline.work.experience",
+                skill: "resume.timeline.work.skill",
                 zelexio: {
                     title: "resume.timeline.work.zelexio.title",
                     subtitle: "resume.timeline.work.zelexio.subtitle",
@@ -50,18 +52,19 @@ export const translation_key = {
             }
 
         },
-        hoobies: {
+        hobbies: {
+            hobbies: "resume.hobbies.hobbie",
             climbing: {
-                title: "resume.hoobies.climbing.title",
-                desc: "resume.hoobies.climbing.desc",
+                title: "resume.hobbies.climbing.title",
+                desc: "resume.hobbies.climbing.desc",
             },
             biking: {
-                title: "resume.hoobies.biking.title",
-                desc: "resume.hoobies.biking.desc",
+                title: "resume.hobbies.biking.title",
+                desc: "resume.hobbies.biking.desc",
             },
             running: {
-                title: "resume.hoobies.biking.title",
-                desc: "resume.hoobies.biking.desc",
+                title: "resume.hobbies.biking.title",
+                desc: "resume.hobbies.biking.desc",
             }
         }
     }
