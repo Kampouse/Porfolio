@@ -36,6 +36,51 @@
   }, 
    "projects": {
     "title": "Description de mes projets"
+  },
+   "resume" : {
+    "intro" :  "je un passionné de technologie et de développement,construire des produit tout en apprenant de nouvelles outils est ce qui me motive le plus. j'adore relever des défis et de rendre quelque chose de beau et fonctionnel. pas simplement 'good enough' mais 'great' si possible. Pour moi, le développement web est un moyen de créer des choses qui peuvent aider les gens et les entreprises à atteindre leurs objectifs.",
+    "educ": " Éducation",
+    "timeline" : {
+     "highschool" : {
+       "title" : "école secondaire",
+        "subtitle" : "Polyvalente des Baie-Comeau"
+    },
+    "professional" : {
+          "title" : "Abbatage façonnage des bois",
+          "subtitle" :  "CFP du Pays-des-Bleuets"
+    },
+    "covid" : {
+          "title" : "apprentissage autodidacte de la programmation",
+          "subtitle" : "pendant la pandémie j'ai appris a programmer en autodidacte en lisant des livres et construisant de petit projet  et en regardant des vidéos sur youtube. pour avoir un base general  de la programmation j'ai  appris a utiliser vim/linux/git appris un peu de react et du nodejs."
+    },  
+    "school42" : {
+          "title" : "Ecole 42",
+          "subtitle" : "j'ai appris les bases de la programmation  system  tout en coonstruisant des projet en groupe et en solo. j'ai appris des  concepts comme l'objet orienter, la  gestion manuel de la memoire, la sycronisation,commnuication entre processus et bien plus encore"
+    },
+      "work" : {
+        "skill" : "Skills",
+      "experience" : "Experience",
+     "zelexio" : {
+          "title" : " High school",
+          "subtitle" : "High school diploma",
+          "desc" : "High school diploma"
+    }
   }
-
+   },
+  "hobbies": {
+    "hobbie" : "Hobbies",
+     "climbing" : {
+       "title" : " High school",
+        "subtitle" : "High school diploma"
+      },
+     "biking" : {
+       "title" : " High school",
+        "subtitle" : "High school diploma"
+      },
+      "running" : {
+       "title" : " High school",
+        "subtitle" : "High school diploma"
+      }
+   }
+  }
 }
