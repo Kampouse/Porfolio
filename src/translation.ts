@@ -37,22 +37,35 @@ export const translation_key = {
                 title: "resume.timeline.covid.title",
                 subtitle: "resume.timeline.covid.subtitle",
             },
-            "school42": {
+            school42: {
                 title: "resume.timeline.school42.title",
                 subtitle: "resume.timeline.school42.subtitle",
             },
-            "zelexio": {
-                title: "resume.timeline.zelexio.title",
-                subtitle: "resume.timeline.zelexio.subtitle",
+            work: {
+                zelexio: {
+                    title: "resume.timeline.work.zelexio.title",
+                    subtitle: "resume.timeline.work.zelexio.subtitle",
+                    desc: "resume.timeline.work.zelexio.desc",
+                }
+            }
 
-
-
-
-
-
+        },
+        hoobies: {
+            climbing: {
+                title: "resume.hoobies.climbing.title",
+                desc: "resume.hoobies.climbing.desc",
+            },
+            biking: {
+                title: "resume.hoobies.biking.title",
+                desc: "resume.hoobies.biking.desc",
+            },
+            running: {
+                title: "resume.hoobies.biking.title",
+                desc: "resume.hoobies.biking.desc",
             }
         }
+    }
 
 
 
-    } as const;
+} as const;

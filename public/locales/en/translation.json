@@ -44,34 +44,41 @@
        "title" : " High school",
         "subtitle" : "High school diploma"
     },
-      "professional" : {
+    "professional" : {
           "title" : " High school",
           "subtitle" : "High school diploma"
     },
-      "covid" : {
+    "covid" : {
+          "title" : " High school",
+          "subtitle" : "High school diploma"
+    },  
+    "school42" : {
           "title" : " High school",
           "subtitle" : "High school diploma"
     },
-      "school42" : {
+      "work" : {
+
+     "zelexio" : {
           "title" : " High school",
-          "subtitle" : "High school diploma"
-     
-      }, 
-       "zelexio" : {
-          "title" : " High school",
-          "subtitle" : "High school diploma"
-
-
-
-    
-     }
-    
-  
-  
-    
-    
-    
-     
+          "subtitle" : "High school diploma",
+          "desc" : "High school diploma"
+    }
+  }
+   },
+  "hobbies ": {
+    "hobbie" : "Hobbies",
+     "climbing" : {
+       "title" : " High school",
+        "subtitle" : "High school diploma"
+      },
+     "biking" : {
+       "title" : " High school",
+        "subtitle" : "High school diploma"
+      },
+      "running" : {
+       "title" : " High school",
+        "subtitle" : "High school diploma"
+      }
    }
-  
+  }
 }
