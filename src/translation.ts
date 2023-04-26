@@ -56,15 +56,15 @@ export const translation_key = {
             hobbies: "resume.hobbies.hobbie",
             climbing: {
                 title: "resume.hobbies.climbing.title",
-                desc: "resume.hobbies.climbing.desc",
+                desc: "resume.hobbies.climbing.subtitle",
             },
             biking: {
                 title: "resume.hobbies.biking.title",
-                desc: "resume.hobbies.biking.desc",
+                desc: "resume.hobbies.biking.subtitle",
             },
             running: {
-                title: "resume.hobbies.biking.title",
-                desc: "resume.hobbies.biking.desc",
+                title: "resume.hobbies.running.title",
+                desc: "resume.hobbies.running.subtitle",
             }
         }
     }

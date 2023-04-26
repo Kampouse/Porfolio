@@ -19,8 +19,7 @@ changeLanguage("en");
   </div>
 
   <div class="time-line-container grid gap-4 mb-10">
-    <TimeLineElement
-      title={t(tr.resume.time_line.high_school.title)}  subtitle= {t( tr.resume.time_line.high_school.subtitle)} />
+
     <TimeLineElement
       title= {t(tr.resume.time_line.professional.title)}
        subtitle= {t(tr.resume.time_line.professional.subtitle)}
@@ -76,11 +75,24 @@ changeLanguage("en");
     <div class="text-3xl w-full font-bold">{t( tr.resume.hobbies.hobbies )}</div>
   </div>
   <div class="mb-10 text-justify"> 
-   <li>{t(tr.resume.hobbies.climbing.title)}</li>
-    <li> {t(tr.resume.hobbies.biking.title)}</li>
-    <li>
-        {t(tr.resume.hobbies.running.title)}
+   <li>
+   <h5 class="text-2xl"> {t(tr.resume.hobbies.climbing.title)}</h5> 
+      <i class="text-sm flex w-3/4">  {t(tr.resume.hobbies.climbing.desc)}</i>
+    
     </li>
+       <li>
+   <h5 class="text-2xl"> {t(tr.resume.hobbies.biking.title)}</h5> 
+      <i class="text-sm flex w-3/4">  {t(tr.resume.hobbies.biking.desc)}</i>
+    
+    </li>
+   <li>
+   <h5 class="text-2xl"> {t(tr.resume.hobbies.running.title)}</h5> 
+      <i class="text-sm flex w-3/4">  {t(tr.resume.hobbies.running.desc)}</i>
+    
+    </li>
+    
+    
+
   </div>
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Pick a Stack? </div>

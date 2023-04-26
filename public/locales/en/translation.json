@@ -42,43 +42,43 @@
     "timeline" : {
      "highschool" : {
        "title" : " High school",
-        "subtitle" : "High school diploma"
+        "subtitle" : "subtitle"
     },
     "professional" : {
-          "title" : " High school",
-          "subtitle" : "High school diploma"
+          "title" : "Mechanial Timber  Harvesting certificate",
+          "subtitle" : "learned how to operate a harvester and a forwarder and how to fell tree"
     },
     "covid" : {
-          "title" : " High school",
-          "subtitle" : "High school diploma"
+          "title" :  "self taught programming during covid-19",
+          "subtitle" : "during the pandemic i  begin my journey in programming and i learned a lot of things from the basics from the web and also books while building little  mini projects; I learned vim,git and linux and also how to use the terminal and how to use the internet to find solutions to my problems."
     },  
     "school42" : {
-          "title" : " High school",
-          "subtitle" : "High school diploma"
+          "title" : "School 42",
+          "subtitle" : "during the March 2021 intake, I was accepted into the 42 school in Quebec,    I learned alot about structed programming and how to think like a computer and how to solve problems in a logical way.All of this without any teacher only other students and the internet to help me. It was a great way to learn and I'm very happy to be  in this school."
     },
       "work" : {
         "skill" : "Skills",
       "experience" : "Experience",
      "zelexio" : {
-          "title" : " High school",
-          "subtitle" : "High school diploma",
-          "desc" : "High school diploma"
+          "title" : "Developer Full Stack",
+          "subtitle" : "as a Developer  at Zelexio i implemnted new features on there existing platform that were requested by the product owner who in this case was the CEO of the Startup. I also provided support for the existing plaform",
+          "desc" : ""
     }
   }
    },
   "hobbies": {
     "hobbie" : "Hobbies",
      "climbing" : {
-       "title" : " High school",
-        "subtitle" : "High school diploma"
+       "title" : "Boldering",
+        "subtitle" : "I pratice boldering  in my free time it  such a great way to combine physical activity and mental activity and it's a great way to meet new people and to have fun."
       },
      "biking" : {
-       "title" : " High school",
-        "subtitle" : "High school diploma"
+       "title" : "Biking",
+        "subtitle" : "Biking is the i  way  it commuting all year long. During the summmer i take out my 'nice' bike and try to pump out some pr on strava and also just ride for fun around the city."
       },
       "running" : {
-       "title" : " High school",
-        "subtitle" : "High school diploma"
+       "title" : "Running",
+        "subtitle" : "whenever i feel like i need to get some fresh air i go out for a run. But not simply the flat run, i like to run up hill and get some good cardio in."
       }
    }
   }

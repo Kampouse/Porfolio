@@ -41,10 +41,6 @@
     "intro" :  "je un passionné de technologie et de développement,construire des produit tout en apprenant de nouvelles outils est ce qui me motive le plus. j'adore relever des défis et de rendre quelque chose de beau et fonctionnel. pas simplement 'good enough' mais 'great' si possible. Pour moi, le développement web est un moyen de créer des choses qui peuvent aider les gens et les entreprises à atteindre leurs objectifs.",
     "educ": " Éducation",
     "timeline" : {
-     "highschool" : {
-       "title" : "école secondaire",
-        "subtitle" : "Polyvalente des Baie-Comeau"
-    },
     "professional" : {
           "title" : "Abbatage façonnage des bois",
           "subtitle" :  "CFP du Pays-des-Bleuets"
@@ -58,28 +54,29 @@
           "subtitle" : "j'ai appris les bases de la programmation  system  tout en coonstruisant des projet en groupe et en solo. j'ai appris des  concepts comme l'objet orienter, la  gestion manuel de la memoire, la sycronisation,commnuication entre processus et bien plus encore"
     },
       "work" : {
-        "skill" : "Skills",
-      "experience" : "Experience",
+        "skill" : "compétences thechniques",
+      "experience" : "Expérience professionnelle",
      "zelexio" : {
-          "title" : " High school",
-          "subtitle" : "High school diploma",
-          "desc" : "High school diploma"
+          "title" : "Développeur web fullstack",
+          "subtitle" : "2022-2023",
+          "desc" : "En  t'en que  developpeur full-stack(Vue,Django) j'ai contribuer a l'ajout de fonctionnalité a la web app tout en ratrappant les bugs et en mettant le code a jour. j'ai permi de rendre  le site plus facile a maintenir et plus facile a utiliser pour les utilisateurds"
     }
   }
    },
   "hobbies": {
-    "hobbie" : "Hobbies",
+    "hobbie" : "Passions et hobbies",
      "climbing" : {
-       "title" : " High school",
-        "subtitle" : "High school diploma"
+       "title" :  "Escalade",
+        "subtitle" : "je  pratique l'escalade  interieur \n cela me permet de rester en forme  tout en  resolvant des problèmes de logique et de  physique"
       },
      "biking" : {
-       "title" : " High school",
-        "subtitle" : "High school diploma"
+       "title" : "Vélo",
+        "subtitle" : "je pratique le fixie  et le vélo de route, je trouve que c'est une bonne façon de se déplacer et de rester en forme."
+
       },
       "running" : {
-       "title" : " High school",
-        "subtitle" : "High school diploma"
+       "title" : "Course a pied",
+        "subtitle" : "je pratique la course a pied pour a la fois pour me garder en forme et simplement car j'aime courir. j'aime bien courir dans les pentes et en montagne."
       }
    }
   }
